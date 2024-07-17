@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="pos_order_types_action" model="ir.actions.act_window">
+        <field name="name">Order Types</field>
+        <field name="res_model">pos.order.types</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="pos_order_types_tree_view" model="ir.ui.view">
+        <field name="name">pos.order.types.tree.view</field>
+        <field name="model">pos.order.types</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"/>
+                <field name="is_pos_settings_enabled" column_invisible="1"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

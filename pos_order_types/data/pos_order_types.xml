@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+     <record id="parcel" model="pos.order.types">
+            <field name="name">Parcel</field>
+    </record>
+
+    <record id="dining" model="pos.order.types">
+            <field name="name">Dining</field>
+    </record>
+
+    <record id="delivery" model="pos.order.types">
+            <field name="name">Delivery</field>
+    </record>
+</odoo>

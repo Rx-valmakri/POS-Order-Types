@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="pos_order_types_in_pos" name="Order Types" parent="point_of_sale.menu_point_config_product">
+        <menuitem id="pos_order_types" name="Order Types" action="pos_order_types_action"/>
+    </menuitem>
+</odoo>
